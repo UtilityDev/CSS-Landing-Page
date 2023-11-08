@@ -5,6 +5,7 @@
 
 :root {
     --top-background: #1f2937;
+    --quote-background: #e5e7eb;
     --button-color: #3882f6;
     --button-color-hover: #2359b0;
     --light-text: #f9faf8;
@@ -118,6 +119,26 @@
     height: 250px;
     border: 5px solid var(--button-color);
     border-radius: 15px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: var(--quote-background);
+}
+
+.quote {
+    font-size: 40px;
+    font-weight: 100;
+    width: 500px;
+}
+
+.quote-person {
+    font-size: 28px;
+    text-align: end;
 }
 
 li, a {
