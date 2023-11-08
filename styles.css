@@ -164,7 +164,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 350px;
 }
 
 .signup-box {
@@ -176,6 +176,15 @@ button:hover {
     width: 1000px;
     height: 200px;
     border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--top-background);
+    color: white;
+    padding: 30px;
 }
 
 li, a {
