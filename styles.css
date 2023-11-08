@@ -6,9 +6,8 @@
 :root {
     --top-background: #1f2937;
     --button-color: #3882f6;
+    --button-color-hover: #2359b0;
     --light-text: #f9faf8;
-    --header-link: #e5e7eb;
-    --information-text: #1f2937;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -33,6 +32,57 @@
 
 .navbar-links a {
     color: var(--light-text);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--top-background);
+    height: 500px;
+    color: white;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-sub-text {
+    font-size: 18px;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(134, 141, 160);
+    flex: 1;
+}
+
+.hero .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 350px;
+}
+
+.sign-up {
+    background-color: var(--button-color);
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transition: 0.2s;
+}
+
+.sign-up:hover {
+    background-color: var(--button-color-hover);
 }
 
 li, a {
