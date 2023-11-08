@@ -99,7 +99,6 @@
 
 .information-wrapper {
     display: flex;
-    flex-wrap: wrap;
     gap: 70px;
 }
 
